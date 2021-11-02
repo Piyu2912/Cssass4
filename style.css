@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./shara desert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* display: flex; */
+  margin-left: 2%;
+}
+.head {
+  display: flex;
+  width: 70%;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  /* overflow: hidden; */
+  margin: 2%;
+}
+.link {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+button {
+  font-size: 110%;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.home {
+  margin-left: 88%;
+}
+.fa-bars {
+  font-size: 27px;
+}
+.left {
+  margin-left: 3%;
+  margin-top: 8%;
+  width: 50%;
+}
+h1 {
+  font-size: 110px;
+}
+.sub {
+  font-size: 24px;
+}
+.right {
+  display: flex;
+}
+.middle {
+  display: flex;
+  height: 700px;
+  box-sizing: border-box;
+}
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 40%;
+  height: 84%;
+  /* margin-top: 8%; */
+  margin-top: 2%;
+  /* margin-left: 9%; */
+  row-gap: 40px;
+}
+.card {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+  width: 80%;
+  padding: 17px;
+}
+.card1 {
+  background-image: url("./pic-1.png");
+}
+.card2 {
+  background-image: url("./pic-2.png");
+}
+.card3 {
+  background-image: url("./pic-3.png");
+}
+.card4 {
+  background-image: url("./pic-4.png");
+}
+.exp {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 125px;
+  width: 200px;
+  color: black;
+  background-color: white;
+}
+.exp1 {
+  margin-left: 58px;
+  color: black;
+}
+.sub {
+  font-size: 90%;
+}
+@media (max-width: 900px) {
+  body {
+    background-repeat: repeat-y;
+  }
+  .head {
+    /* display: inline-block; */
+    margin-right: auto;
+    width: 100%;
+  }
+  .home {
+    margin-left: 30%;
+  }
+  .logo {
+    display: inline;
+  }
+  .middle {
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  .left {
+    display: block;
+  }
+  .right {
+    display: block;
+  }
+  .link {
+    display: block;
+  }
+  .exp {
+    margin-left: 25%;
+    width: 190px;
+  }
+  .exp1 {
+    margin-left: 34%;
+  }
+  .card {
+    height: 40%;
+    width: 150%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  h1 {
+    margin-left: 10%;
+    font-size: 80px;
+  }
+  .sub {
+    margin-left: 30%;
+    text-align: center;
+  }
+} ;
